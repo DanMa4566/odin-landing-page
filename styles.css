@@ -44,7 +44,7 @@ a {
 }
 
 .links ul li a:hover {
-    background: #eee;
+    background: #020101;
     color: #000;
 }
 
@@ -110,7 +110,7 @@ a {
 
 .card-container {
     display: flex;
-    padding: 0px 5px;
+    padding: 0px 5px 112px 5px;
     justify-content: center;
     gap: 16px;
 }
@@ -128,4 +128,26 @@ a {
 
 .card-text {
     color: #5a5a5a;
+}
+
+.quote {
+    display: flex;
+    background: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.quote-text {
+    font-size: 24px;
+    width: 500px;
+    font-style: italic;
+    margin: 4px;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 24px;
 }
