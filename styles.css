@@ -90,11 +90,11 @@ a {
 }
 
 .header-img {
+    background-image: url(images/header-cat-img.jpg);
+    background-position: center;
+    background-size: cover;
     background-color: rgb(145, 145, 145);
     flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .general-info {
@@ -127,9 +127,31 @@ a {
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 6px;   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+}
+
+.one {
+    background-image: url(images/sleeping-cats.jpg);
+}
+
+.two {
+    background-image: url(images/cat-playing.jpg);
+}
+
+.three {
+    background-image: url(images/cat-eating.jpg);
+}
+
+.four {
+    background-image: url(images/pet-the-cat.jpg);
+}
+
+.one,
+.two,
+.three,
+.four {
+    background-color: #3882F6;
+    background-position: center;
+    background-size: cover;
 }
 
 .card-text {
